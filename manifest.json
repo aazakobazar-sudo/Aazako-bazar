@@ -1,0 +1,94 @@
+{
+  "name": "Aajako Bazar — Nepal Ko Market",
+  "short_name": "Aajako Bazar",
+  "description": "Nepal Ko Trusted Local Marketplace — buy, sell and manage your local shop with Khata, Video Bazar and Wallet.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F4C9A",
+  "theme_color": "#0F4C9A",
+  "lang": "ne",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/",
+  "categories": [
+    "shopping",
+    "business",
+    "lifestyle"
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Cart",
+      "short_name": "Cart",
+      "url": "./index.html",
+      "icons": [
+        {
+          "src": "assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/shots/1-login.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Login"
+    },
+    {
+      "src": "assets/shots/2-customer.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Customer Home"
+    },
+    {
+      "src": "assets/shots/3-videos.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Shops"
+    },
+    {
+      "src": "assets/shots/4-merchant.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Merchant"
+    },
+    {
+      "src": "assets/shots/5-admin.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Admin: shop approval"
+    }
+  ]
+}
